@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: quack
+      POSTGRES_USER: ducky
+      POSTGRES_DB: water
+    ports:
+      - "5439:5432"
