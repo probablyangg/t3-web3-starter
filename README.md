@@ -11,7 +11,6 @@
     - rainbowsdk
     - wagmi
     - ethersjs
-    - hardhat
 
 ## Deploy
 1. clone
